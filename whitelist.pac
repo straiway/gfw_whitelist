@@ -1,4 +1,4 @@
-var wall_proxy = "SOCKS5 127.0.0.1:1080; SOCKS 127.0.0.1:1080;";
+var wall_proxy = "PROXY 127.0.0.1:8088; SOCKS5 127.0.0.1:8088; SOCKS 127.0.0.1:8088;";
 var nowall_proxy = "DIRECT;";
 var direct = "DIRECT;";
 var ip_proxy = "DIRECT;";
@@ -202,6 +202,9 @@ var white_domains = {"am":{
 "xiapu":1,
 "ychdzx":1
 },"com":{
+"v1h5":1,
+"huanlinna":1,
+"baiducontent":1,
 "0-6":1,
 "0001688":1,
 "001cndc":1,
@@ -8321,6 +8324,7 @@ var white_domains = {"am":{
 "ulinix":1
 },"me":{
 "21me":1,
+"ele":1,
 "bole":1,
 "dzj":1,
 "kyhs":1,
@@ -9656,7 +9660,7 @@ function isInDomains(domain_dict, host) {
 	var pos1 = host.lastIndexOf('.');
 
 	suffix = host.substring(pos1 + 1);
-	if (suffix == "cn") {
+	if (suffix == "cn" || suffix == "v1cn") {
 		return true;
 	}
 
