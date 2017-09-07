@@ -208,6 +208,7 @@ var white_domains = {"am":{
 "jobbole":1,
 "v1h5":1,
 "ziroom":1,
+"dayima":1,
 "laruence":1,
 "75team":1,
 "imququ":1,
