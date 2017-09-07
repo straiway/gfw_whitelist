@@ -1,4 +1,4 @@
-var wall_proxy = "PROXY 127.0.0.1:8088; SOCKS5 127.0.0.1:8088; SOCKS 127.0.0.1:8088;";
+var wall_proxy = "PROXY 192.168.199.154:8088; SOCKS5 192.168.199.154:8088; SOCKS 192.168.199.154:8088;";
 var nowall_proxy = "DIRECT;";
 var direct = "DIRECT;";
 var ip_proxy = "DIRECT;";
@@ -204,7 +204,6 @@ var white_domains = {"am":{
 "ychdzx":1
 },"com":{
 "melonh":1,
-"beijingcych":1,
 "jobbole":1,
 "v1h5":1,
 "laruence":1,
