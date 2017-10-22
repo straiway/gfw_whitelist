@@ -207,6 +207,7 @@ var white_domains = {"am":{
 "beijingcych":1,
 "jobbole":1,
 "v1h5":1,
+"yinxiang":1,
 "ziroom":1,
 "dayima":1,
 "laruence":1,
