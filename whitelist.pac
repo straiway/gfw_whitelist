@@ -204,6 +204,7 @@ var white_domains = {"am":{
 "ychdzx":1
 },"com":{
 "melonh":1,
+"pixabay":1,
 "beijingcych":1,
 "jobbole":1,
 "v1h5":1,
